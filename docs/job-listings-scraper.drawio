@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" modified="2024-01-31T11:53:24.636Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="nLz1xzJ27LLd4buX8NjT" version="23.0.1" type="device">
+  <diagram name="Página-1" id="GrApszGM8Zmnc5WbSJOL">
+    <mxGraphModel dx="880" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QvioC_zVsuV0MzO9MNQP-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QvioC_zVsuV0MzO9MNQP-1" target="QvioC_zVsuV0MzO9MNQP-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QvioC_zVsuV0MzO9MNQP-1" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QvioC_zVsuV0MzO9MNQP-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QvioC_zVsuV0MzO9MNQP-2" target="QvioC_zVsuV0MzO9MNQP-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QvioC_zVsuV0MzO9MNQP-2" value="&lt;div&gt;Scrape&lt;/div&gt;&lt;div&gt;Job Listings&lt;br&gt;&lt;/div&gt;&lt;div&gt;(Puppeteer)&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QvioC_zVsuV0MzO9MNQP-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QvioC_zVsuV0MzO9MNQP-5" target="QvioC_zVsuV0MzO9MNQP-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QvioC_zVsuV0MzO9MNQP-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QvioC_zVsuV0MzO9MNQP-5" target="QvioC_zVsuV0MzO9MNQP-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QvioC_zVsuV0MzO9MNQP-5" value="&lt;div&gt;Data&lt;/div&gt;&lt;div&gt;Extraction&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QvioC_zVsuV0MzO9MNQP-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QvioC_zVsuV0MzO9MNQP-7" target="QvioC_zVsuV0MzO9MNQP-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QvioC_zVsuV0MzO9MNQP-7" value="&lt;div&gt;BERT-Like&lt;/div&gt;&lt;div&gt;Exctraction&lt;br&gt;&lt;/div&gt;&lt;div&gt;(Local Flask API)&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QvioC_zVsuV0MzO9MNQP-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QvioC_zVsuV0MzO9MNQP-9" target="QvioC_zVsuV0MzO9MNQP-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QvioC_zVsuV0MzO9MNQP-9" value="&lt;div&gt;Mistral&lt;/div&gt;&lt;div&gt;Reasoning&lt;/div&gt;&lt;div&gt;(PAAS API)&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QvioC_zVsuV0MzO9MNQP-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QvioC_zVsuV0MzO9MNQP-14" target="QvioC_zVsuV0MzO9MNQP-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QvioC_zVsuV0MzO9MNQP-14" value="Database Storage" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="360" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="QvioC_zVsuV0MzO9MNQP-15" value="scraped table" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="QvioC_zVsuV0MzO9MNQP-14">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QvioC_zVsuV0MzO9MNQP-16" value="extracted table" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="QvioC_zVsuV0MzO9MNQP-14">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QvioC_zVsuV0MzO9MNQP-22" value="&lt;div&gt;Analysis&lt;/div&gt;&lt;div&gt;(iagovar.com Blog)&lt;br&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="505" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
