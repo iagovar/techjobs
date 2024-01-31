@@ -51,38 +51,21 @@ This is because running analytical queries against dirty data is not a good Idea
 
 ### Table Schema
 
-+---------------------+------------+-------+--------+
-| Column Name         | DataType   | Null? | Others |
-+---------------------+------------+-------+--------+
-| url                 | varchar    | no    | PK     |
-+---------------------+------------+-------+--------+
-| dateScrapedISO      | timestampz | no    |        |
-+---------------------+------------+-------+--------+
-| datePublishedISO    | timestampz | yes   |        |
-+---------------------+------------+-------+--------+
-| roleCompanyName     | varchar    | yes   |        |
-+---------------------+------------+-------+--------+
-| roleTitle           | varchar    | yes   |        |
-+---------------------+------------+-------+--------+
-| roleDescription     | varchar    | yes   |        |
-+---------------------+------------+-------+--------+
-| roleLocation        | varchar    | yes   |        |
-+---------------------+------------+-------+--------+
-| roleIsFullRemote    | boolean    | yes   |        |
-+---------------------+------------+-------+--------+
-| roleOpenPositions   | varchar    | yes   |        |
-+---------------------+------------+-------+--------+
-| roleNumApplicants   | varchar    | yes   |        |
-+---------------------+------------+-------+--------+
-| roleTechList        | varchar    | yes   |        |
-+---------------------+------------+-------+--------+
-| roleSalaryRange     | varchar    | yes   |        |
-+---------------------+------------+-------+--------+
-| roleMinExperience   | varchar    | yes   |        |
-+---------------------+------------+-------+--------+
-| roleIsJunior        | boolean    | yes   |        |
-+---------------------+------------+-------+--------+
-| roleBootCampAllowed | boolean    | yes   |        |
-+---------------------+------------+-------+--------+
-| roleCompanyName     | varchar    | yes   |        |
-+---------------------+------------+-------+--------+
+| Column Name         	| DataType   	| Null? 	| Others 	|
+|---------------------	|------------	|-------	|--------	|
+| url                 	| varchar    	| no    	| PK     	|
+| dateScrapedISO      	| timestampz 	| no    	|        	|
+| datePublishedISO    	| timestampz 	| yes   	|        	|
+| roleCompanyName     	| varchar    	| yes   	|        	|
+| roleTitle           	| varchar    	| yes   	|        	|
+| roleDescription     	| varchar    	| yes   	|        	|
+| roleLocation        	| varchar    	| yes   	|        	|
+| roleIsFullRemote    	| boolean    	| yes   	|        	|
+| roleOpenPositions   	| varchar    	| yes   	|        	|
+| roleNumApplicants   	| varchar    	| yes   	|        	|
+| roleTechList        	| varchar    	| yes   	|        	|
+| roleSalaryRange     	| varchar    	| yes   	|        	|
+| roleMinExperience   	| varchar    	| yes   	|        	|
+| roleIsJunior        	| boolean    	| yes   	|        	|
+| roleBootCampAllowed 	| boolean    	| yes   	|        	|
+| roleCompanyName     	| varchar    	| yes   	|        	|
